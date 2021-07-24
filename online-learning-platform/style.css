@@ -1,0 +1,158 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FEFEFE;
+    max-width: 900px;
+    margin: auto;
+}
+
+.header {
+    display: grid;
+    grid-template-areas: "title . . . . nav nav . . . signin .";
+    align-items: center;
+}
+
+.sign-in {
+    background-color: #6255A4;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 5px;
+    grid-area: signin;
+}
+
+.logo {
+    grid-area: title;
+    color: #6255A4;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.nav-items > li {
+    margin: 0 15px;
+    color: #787287;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "left image right";
+    height: 400px;
+    align-items: center;
+}
+
+.hero-left {
+    display: grid;
+    grid-template-areas: 
+    "tagline"
+    "main-hero-header"
+    "description";
+    grid-area: left;
+}
+
+.tagline {
+    grid-area: tagline;
+    color: #DA938A;
+    margin-bottom: 0;
+}
+
+.main-hero-header {
+    grid-area: main-hero-header;
+    font-size: 3rem;
+    color: #423960;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.main-hero-header > span {
+    color: #85D1A0;
+}
+
+.description {
+    grid-area: description;
+    color: #777486;
+    margin-top: 0;
+}
+
+.hero-image {
+    grid-area: image;
+    justify-self: center;
+}
+
+.hero-image > img {
+    height: 400px;
+    padding: 0 2rem;
+}
+
+.hero-right {
+    grid-area: right;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex > p {
+    margin-left: 10px;
+}
+
+.bottom {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "left right righter";
+}
+
+.purple-card {
+    background-color: #6255A4;
+    color: #f0eaff;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+.purple-card > h3 {
+    margin: 0;
+    width: 60%;
+}
+
+.bottom-left {
+    grid-area: left;
+}
+
+.bottom-right {
+    padding: 0 40px;
+    grid-area: right;
+}
+
+.bottom-right > h2 {
+    margin: 0;
+}
+
+.bottom-right > h2 > span {
+    color: #62569F
+}
+
+.bottom-right > p {
+    color:#9F9DA6;
+}
+
+.card {
+    color: #867F8D;
+    background-color: #fff;
+    padding: 10px 10px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 18px 5px #c6c6c6;
+}
+
+.card > p {
+    color: #C2C0CC;
+}
