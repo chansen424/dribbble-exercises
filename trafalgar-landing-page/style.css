@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Mulish';
+}
+
+body > div:first-child {
+    padding: 0 130px;
+}
+
+.grey-p {
+    color: #7D7987;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    width: 50%;
+}
+
+.nav-items {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items > li:first-child {
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-content {
+    margin-top: 130px;
+}
+
+.consult-button {
+    background-color: #458FF6;
+    color: #FFF;
+    border-radius: 55px;
+    border: none;
+    padding: 10px 40px;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.w-60 {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.services-container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 34px;
+    margin-top: 80px;
+}
+
+.services-card {
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    padding: 50px 40px;
+}
+
+.services-button-container {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 220px;
+}
+
+.secondary-button {
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    padding: 10px 40px;
+    background-color: transparent;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-2-content {
+    padding: 0 140px;
+}
+
+.section-2-button-container {
+    margin-top: 40px;
+}
+
+.black-line {
+    width: 56px;
+    height: 2px;
+    background-color: #000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.m-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-3 {
+    margin-top: 220px;
+    margin-bottom: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-3-content {
+    padding-right: 70px;
+}
+
+.download-button-container {
+    margin-top: 40px;
+}
+
+.customer-card {
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    padding: 65px 120px;
+    color: #FFF;
+}
+
+.customer-heading {
+    text-align: center;
+}
+
+.customer-section {
+    display: flex;
+    align-items: center;
+}
+
+.customer-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer-image {
+    border-radius: 100%;
+    padding-right: 30px;
+}
+
+.customer-quote {
+    width: 50%;
+    margin: 0 auto;
+}
